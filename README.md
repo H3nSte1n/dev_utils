@@ -5,19 +5,19 @@
 ## Installation
 ### node
 ```sh
-npm install devutils --save
+$ npm install devutils --save
 ```
 ### yarn
 ```sh
-yarn add devutils
+$ yarn add devutils
 ```
 
 ## Usage
 ### Javascript
 ```javascript
-import { devUtils } from 'devutils';
+$ import { devUtils } from 'devutils';
 ```
 ### TypeScript
 ```typescript
-import { devUtils } from 'devutils';
+$ import { devUtils } from 'devutils';
 ```
