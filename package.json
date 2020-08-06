@@ -5,21 +5,24 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/H3nSte1n"
+    "url": "git+https://github.com/H3nSte1n/dev_utils.git"
   },
   "keywords": [],
   "author": "Henry Steinhauer <Henrysteinhauer@t-online.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/H3nSte1n"
+    "url": "https://github.com/H3nSte1n/dev_utils/issues"
   },
-  "homepage": "https://github.com/H3nSte1n",
+  "homepage": "https://github.com/H3nSte1n/dev_utils#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "istanbul": "^0.4.5",
     "mocha": "^8.1.1",
     "typescript": "^3.9.7"
   }
