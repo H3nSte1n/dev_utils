@@ -1,0 +1,26 @@
+{
+  "name": "admin_utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H3nSte1n"
+  },
+  "keywords": [],
+  "author": "Henry Steinhauer <Henrysteinhauer@t-online.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/H3nSte1n"
+  },
+  "homepage": "https://github.com/H3nSte1n",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "typescript": "^3.9.7"
+  }
+}

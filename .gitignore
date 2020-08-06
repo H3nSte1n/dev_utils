@@ -1,0 +1,9 @@
+# IDE's settings
+.idea
+.DS_Store
+
+# NPM
+node_modules
+
+# Builded folder
+dist
