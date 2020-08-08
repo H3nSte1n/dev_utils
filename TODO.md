@@ -7,8 +7,9 @@ Project Description
 
 ### In Progress
 
-- [ ] setup project  
 
 ### Done ✓
+
+- [x] setup project
 
 
