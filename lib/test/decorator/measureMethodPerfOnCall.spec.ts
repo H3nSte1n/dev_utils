@@ -36,12 +36,12 @@ describe('PerformanceMethodByCall', () => {
       log.restore();
     });
   });
-  it('should not return console.log by method initialisation.', () => {
+  it('should not call console.log by method initialisation.', () => {
     const log = sinon.spy(console, 'log');
     sinon.assert.notCalled(log);
     log.restore();
   });
-  describe('should return output from method', () => {
+  describe('should output return value of method', () => {
     it('without arguments', () => {
       const result = new Person().calc();
       expect(result).equal(90000);
