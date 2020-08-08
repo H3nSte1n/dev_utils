@@ -7,8 +7,7 @@ import { MyMath } from '../MyMath';
 * @return {any} - Result of the method
 */
 export function measureMethodPerfOnCall(count: Number = 400): any {
-  return (_target: any, _propertyKey: string, descriptor: PropertyDescriptor,
-  ) => {
+  return (_target: any, _propertyKey: string, descriptor: PropertyDescriptor) => {
     const originalMethod = descriptor.value;
     let result = descriptor.value();
     descriptor.value = function() {
