@@ -19,7 +19,7 @@ describe('PerformanceMethodByCall', () => {
     }
   }
 
-  describe('should return console.log on method call', () => {
+  describe('should call console.log on method call', () => {
     it('without arguments.', () => {
       const log = sinon.spy(console, 'log');
       new Person().calc();
